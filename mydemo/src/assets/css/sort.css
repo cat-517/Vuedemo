@@ -1,0 +1,95 @@
+/*
+ * header
+ */
+#sort .header {
+    position  : fixed;
+    top       : 0;
+    left      : 0;
+    height    : 1.92rem;
+    background: linear-gradient(#ff6141, #ff8a7f);
+    padding   : .1rem .2rem .2rem;
+    box-sizing: border-box;
+}
+
+.header .t {
+    height     : .86rem;
+    line-height: .86rem;
+    color      : #fff;
+}
+
+.header .t h1 {
+    float      : left;
+    font-size  : .32rem;
+    margin-left: 3rem;
+}
+
+/*
+ * top
+ */
+#sort .header input {
+    padding-left : .24rem;
+    width        : 7.1rem;
+    box-sizing   : border-box;
+    height       : .6rem;
+    font-size    : .28rem;
+    border-radius: .04rem;
+}
+
+/*
+ * aside
+ */
+
+#sort .aside {
+    width   : 2.36rem;
+    position: fixed;
+    left    : 0;
+    top     : 1.92rem;
+    height  : calc(100% - 2.7rem);
+    overflow: auto;
+    background-color: #eee;
+}
+
+/*
+ * right
+ */
+#sort .right {
+    position        : fixed;
+    top             : 1.92rem;
+    right           : 0;
+    width           : 5.14rem;
+    height          : calc(100% - 2.7rem);
+    overflow        : auto;
+    background-color: #f0f0f0;
+}
+
+#sort .wrap {
+    margin          : .3rem .2rem .3rem;
+    background-color: #fff;
+    width           : 4.64rem;
+    height          : 4.36rem;
+    padding-right   : .2rem;
+    box-sizing      : border-box;
+}
+
+#sort .wrap h2 {
+    font-weight: bold;
+    font-size  : .32rem;
+    margin     : .2rem .2rem;
+}
+
+#sort .wrap li {
+    float : left;
+    margin: 0 0 .2rem .2rem;
+}
+
+#sort .wrap img {
+    width        : 1.28rem;
+    height       : 1.28rem;
+    margin-bottom: .1rem;
+}
+
+#sort .wrap p {
+    text-align: center;
+    font-size : .24rem;
+    color     : #c6c6c6;
+}

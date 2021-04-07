@@ -1,0 +1,94 @@
+/*
+ * header
+ */
+.index .header {
+    height          : 1.68rem;
+    line-height     : 1.68rem;
+    background-color: #d43c33;
+    padding         : 0 .2rem;
+    position        : fixed;
+    top             : 0;
+    left            : 0;
+    z-index         : 100;
+    width           : 100%;
+    box-sizing      : border-box;
+}
+
+.index .header .topl {
+    float : left;
+    height: 1.68rem;
+}
+
+.index .header .topl svg {
+    width   : .48rem;
+    height  : .48rem;
+    position: absolute;
+    left    : .2rem;
+    top     : .6rem;
+}
+
+.index .header .topl span {
+    height        : 1.68rem;
+    font-size     : .44rem;
+    color         : #fff;
+    letter-spacing: .06rem;
+    margin-left   : .6rem;
+    font-family: '华文彩云';
+}
+
+/*
+ * topr
+ */
+.index .header .topr {
+    float: right;
+}
+
+.index .header .topr span {
+    display         : inline-block;
+    width           : 2rem;
+    height          : .72rem;
+    line-height     : .72rem;
+    text-align      : center;
+    border-radius   : .36rem;
+    font-size       : .32rem;
+    color           : #d43c33;
+    background-color: #fff;
+}
+
+/*
+ * nav
+ */
+.index .main {
+    padding-top: 1.68rem;
+}
+
+.index .main .nav {
+    height       : .76rem;
+    line-height  : .76rem;
+    width        : 100%;
+    position     : fixed;
+    left         : 0;
+    top          : 1.68rem;
+    z-index      : 100;
+    display      : flex;
+    border-bottom: .04rem solid #f1f1f2;
+    background-color: #fff;
+}
+
+.index .main .nav p {
+    text-align: center;
+    display   : block;
+    flex      : 1;
+    font-size : .3rem;
+}
+
+.index .main .nav p a {
+    color     : #333333;
+}
+
+.index .main .nav p .active {
+    color: #dd001b;
+    height       : .76rem;
+    display      : inline-block;
+    border-bottom: .04rem solid #dd001b;
+}

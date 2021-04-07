@@ -1,0 +1,114 @@
+{
+  "id": "2287388",
+  "name": "demo",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "6237070",
+      "name": "竖线",
+      "font_class": "tubiaozhizuo-",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "5652433",
+      "name": "左箭头",
+      "font_class": "zuojiantou",
+      "unicode": "e605",
+      "unicode_decimal": 58885
+    },
+    {
+      "icon_id": "1638281",
+      "name": "下箭头",
+      "font_class": "xiajiantou",
+      "unicode": "e612",
+      "unicode_decimal": 58898
+    },
+    {
+      "icon_id": "1833857",
+      "name": "上箭头",
+      "font_class": "shangjiantou",
+      "unicode": "e733",
+      "unicode_decimal": 59187
+    },
+    {
+      "icon_id": "1526270",
+      "name": "筛选",
+      "font_class": "shaixuan",
+      "unicode": "e654",
+      "unicode_decimal": 58964
+    },
+    {
+      "icon_id": "14886548",
+      "name": "客服",
+      "font_class": "kefu",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "12815206",
+      "name": "搜索",
+      "font_class": "sousuo1",
+      "unicode": "e616",
+      "unicode_decimal": 58902
+    },
+    {
+      "icon_id": "286293",
+      "name": "导航-购物车",
+      "font_class": "daohanggouwuche",
+      "unicode": "e607",
+      "unicode_decimal": 58887
+    },
+    {
+      "icon_id": "14720288",
+      "name": "分类 排列",
+      "font_class": "fenleipailie",
+      "unicode": "e617",
+      "unicode_decimal": 58903
+    },
+    {
+      "icon_id": "15085896",
+      "name": "商城",
+      "font_class": "shangcheng",
+      "unicode": "e63d",
+      "unicode_decimal": 58941
+    },
+    {
+      "icon_id": "16589886",
+      "name": "我",
+      "font_class": "5wo",
+      "unicode": "e624",
+      "unicode_decimal": 58916
+    },
+    {
+      "icon_id": "1664369",
+      "name": "右箭头",
+      "font_class": "youjiantou",
+      "unicode": "e731",
+      "unicode_decimal": 59185
+    },
+    {
+      "icon_id": "3217799",
+      "name": "分类",
+      "font_class": "icon-",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "8361829",
+      "name": "商店",
+      "font_class": "shangdian",
+      "unicode": "e6cb",
+      "unicode_decimal": 59083
+    },
+    {
+      "icon_id": "3050508",
+      "name": "定位",
+      "font_class": "location",
+      "unicode": "e611",
+      "unicode_decimal": 58897
+    }
+  ]
+}

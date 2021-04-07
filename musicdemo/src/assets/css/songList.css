@@ -1,0 +1,264 @@
+.song .head {
+    height          : 1.2rem;
+    line-height     : 1.2rem;
+    width           : 100%;
+    background-color: #d43c33;
+    padding         : 0 .2rem;
+    box-sizing      : border-box;
+    color           : #fff;
+    font-size       : 22px;
+}
+
+.song .head i {
+    font-family: '宋体';
+    font-weight: bold;
+}
+
+.song .head span {
+    font-family   : '华文彩云';
+    letter-spacing: .06rem;
+    margin-left   : 2rem;
+}
+
+.song .top {
+    height          : 4.2rem;
+    width           : 100%;
+    padding         : .8rem .4rem;
+    box-sizing      : border-box;
+    position        : relative;
+    overflow        : hidden;
+    background-color: rgba(0, 0, 0, .4);
+
+}
+
+.song .top img {
+    position  : absolute;
+    left      : 0;
+    top       : 0;
+    right     : 0;
+    bottom    : 0;
+    z-index   : -1;
+    width     : 100%;
+    margin-top: -20%;
+}
+
+.song .top .inner {
+    height: 2.84rem;
+}
+
+.song .top .inner .title {
+    font-size  : 18px;
+    line-height: 1.5;
+    color      : #fff;
+}
+
+.song .top .inner .day {
+    padding-left    : 3px;
+    padding-right   : 3px;
+    margin-top      : 10px;
+    display         : inline-block;
+    background-color: hsla(0, 0%, 100%, .2);
+    border-radius   : 2px;
+    font-size       : 10px;
+    color           : hsla(0, 0%, 100%, .6);
+}
+
+.song .top .inner .con {
+    margin-top        : 20px;
+    font-size         : 14px;
+    color             : hsla(0, 0%, 100%, .8);
+    overflow          : hidden;
+    text-overflow     : ellipsis;
+    display           : -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.song .top .inner .con span {
+    display    : block;
+    width      : 160px;
+    font-size  : 14px;
+    line-height: 1.5;
+    color      : hsla(0, 0%, 100%, .8);
+}
+
+.song .list h3 {
+    height          : 23px;
+    line-height     : 23px;
+    padding         : 0 10px;
+    font-size       : 12px;
+    color           : #666;
+    background-color: #eeeff0;
+
+}
+
+.song .list .wbox {
+    height: 1.08rem;
+}
+
+.song .list .wbox .left {
+    width      : 40px;
+    height     : 1.08rem;
+    line-height: 1.08rem;
+    float      : left;
+    text-align : center;
+    color      : #999;
+    font-size  : 17px;
+}
+
+.song .list .wbox .wrap {
+    float        : left;
+    height       : 1.08rem;
+    box-sizing   : border-box;
+    border-bottom: 1px solid #ddd;
+}
+
+.song .list .wbox .wrap .l {
+    padding: .12rem 0;
+    width  : 290px;
+    float  : left;
+}
+
+.song .list .wbox .wrap .l .y {
+    font-size    : .34rem;
+    height       : .48rem;
+    line-height  : .48rem;
+    overflow     : hidden;
+    text-overflow: ellipsis;
+    white-space  : nowrap;
+}
+
+.song .list .wbox .wrap .l .e {
+    overflow     : hidden;
+    text-overflow: ellipsis;
+    white-space  : nowrap;
+}
+
+.song .list .wbox .wrap .l .y em {
+    color      : #aaa;
+    margin-left: .1rem
+}
+
+.song .list .wbox .wrap .l span {
+    font-size: .22rem;
+    color    : #888;
+}
+
+.song .list .wbox .wrap .r {
+    float      : right;
+    height     : 1.08rem;
+    padding    : 0 .2rem;
+    display    : flex;
+    align-items: center;
+}
+
+.song .list .wbox .wrap .r span {
+    display            : inline-block;
+    background         : url('../images/bg.png') no-repeat;
+    width              : .44rem;
+    height             : .44rem;
+    background-size    : 3.32rem 1.94rem;
+    background-position: -.48rem 0;
+}
+
+.song .footer {
+    height     : 60px;
+    line-height: 60px;
+    text-align : center;
+    width      : 100%;
+    color      : #aaa;
+}
+
+/*
+ * comments
+ */
+.song .end {
+    padding-bottom: 58px;
+}
+
+.song .com .like h3 {
+    padding    : 0 10px;
+    height     : 23px;
+    line-height: 23px;
+    font-size  : 12px;
+    font-weight: 400;
+    background : rgba(0, 0, 0, .05);
+    color      : #666;
+}
+
+.song .com .coms {
+    margin-top: 10px;
+    width     : 100%;
+}
+
+.song .com .coms .l {
+    margin: 0 10px;
+    float : left;
+    height: 100%;
+}
+
+.song .com .coms .l img {
+    width        : 30px;
+    height       : 30px;
+    border-radius: 15px;
+}
+
+.song .com .coms .r {
+    float        : right;
+    width        : 315px;
+    padding      : 10px 10px 0 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.song .com .coms .r .up {
+    height: 37.6px;
+}
+
+.song .com .coms .r .up span {
+    float: left;
+}
+
+.song .com .coms .r .up i {
+    float : right;
+    width : 14px;
+    height: 14px;
+}
+
+.song .com .coms .r .up em {
+    float       : right;
+    margin-right: 4px;
+    color       : #999;
+    margin-top  : 1px;
+}
+
+.song .com .coms .r .down {
+    margin-top    : 5px;
+    padding-bottom: 12px;
+}
+
+.song .finish {
+    height          : 54px;
+    width           : 100%;
+    background-color: #fff;
+    position        : fixed;
+    bottom          : 0;
+    left            : 0;
+    right           : 0;
+    padding         : 7px 30px;
+    box-sizing      : border-box;
+    text-align      : center;
+}
+
+.song .finish span {
+    height          : 40px;
+    line-height     : 40px;
+    color           : #fff;
+    background-color: #ff3a3a;
+    border-radius   : 20px;
+    font-size       : 18px;
+    font-family     : '华文彩云';
+    display         : inline-block;
+    width           : 305px;
+    text-align      : center;
+    letter-spacing  : .04rem;
+}

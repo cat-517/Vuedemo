@@ -1,0 +1,74 @@
+#re .t {
+    height          : .86rem;
+    line-height     : .86rem;
+    color           : #fff;
+    background-color: #ff6040;
+}
+
+#re .t h1 {
+    float      : left;
+    font-size  : .32rem;
+    margin-left: 3.3rem;
+}
+
+
+#re .inner {
+    margin          : .2rem;
+    box-sizing      : border-box;
+    background-color: #fff;
+    height          : calc(100vh - 1.2rem);
+}
+
+#re .inner img {
+    margin: 3rem 0 .6rem 1.74rem;
+    height: .96rem;
+    width : 3.64rem;
+}
+
+#re .ipt {
+    height     : .8rem;
+    line-height: .8rem;
+    margin     : 0 .5rem;
+    font-size  : .3rem;
+    color      : #999;
+
+}
+
+#re .ipt label {
+    display   : inline-block;
+    width     : 1.2rem;
+    text-align: right;
+}
+
+#re .ipt input {
+    width        : 4.4rem;
+    height       : .6rem;
+    padding-left : .2rem;
+    color        : #666;
+    font-size    : .24rem;
+    border-bottom: 1px solid #ccc;
+}
+
+#re .btn {
+    text-align: center;
+}
+
+#re .btn button {
+    width           : 6.1rem;
+    height          : .98rem;
+    background-color: #ff6040;
+    color           : #fcfcfc;
+    margin          : .4rem auto;
+    border-radius   : .1rem;
+    letter-spacing  : .2rem;
+    font-weight     : bold;
+}
+
+#re .go {
+    text-align: center;
+}
+
+#re .go .register {
+    color    : #ff6040;
+    font-size: .28rem;
+}

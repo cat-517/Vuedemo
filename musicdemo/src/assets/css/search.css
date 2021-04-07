@@ -1,0 +1,161 @@
+.search {
+    margin-top: .8rem;
+}
+
+/*
+ * wrap
+ */
+.search .wrap {
+    height       : 1.2rem;
+    width        : 100%;
+    padding      : .3rem .2rem;
+    box-sizing   : border-box;
+    border-bottom: 1px solid #ddd;
+}
+
+.search .wrap .top {
+    width           : 100%;
+    height          : .6rem;
+    box-sizing      : border-box;
+    padding         : 0 .6rem;
+    background-color: #ebecec;
+    border-radius   : .3rem;
+    position        : relative;
+}
+
+.search .wrap .top i {
+    background    : url('../images/search.svg') no-repeat;
+    position      : absolute;
+    top           : .18rem;
+    left          : 0;
+    width         : .26rem;
+    height        : .26rem;
+    margin        : 0 .16rem;
+    vertical-align: middle;
+}
+
+.search .wrap .top input {
+    width           : 100%;
+    height          : .6rem;
+    background-color: rgba(0, 0, 0, 0);
+    color           : #333;
+    font-size       : 14px;
+    line-height     : 18px;
+}
+
+.search .wrap .top input::placeholder {
+    color: #c9c9c9;
+}
+
+.search .wrap .top em {
+    position: absolute;
+    right   : .2rem;
+    top     : .18rem;
+    color   : #bbb;
+}
+
+/*
+ * search list
+ */
+.search .list {
+    height: 3.14rem;
+    width : 100%;
+}
+
+.search .list .inner {
+    padding: .3rem .2rem 0;
+}
+
+.search .list .inner h3 {
+    font-size  : 12px;
+    line-height: 12px;
+    color      : #666;
+}
+
+.search .list .inner ul {
+    margin    : .2rem 0 .14rem;
+    height    : 2.4rem;
+    box-sizing: border-box;
+}
+
+.search .list .inner ul li {
+    display      : inline-block;
+    height       : .64rem;
+    margin       : 0 .16rem .16rem 0;
+    padding      : 0 .28rem;
+    font-size    : 14px;
+    line-height  : .64rem;
+    color        : #333;
+    border-radius: .32rem;
+    border       : 1px solid #d3d4da;
+}
+
+.search .list .inner ul li .link {
+    color      : #333;
+    line-height: .64rem;
+}
+
+/*
+ * song
+ */
+.search .song {
+    padding-left: .2rem;
+}
+
+.search .song .box {
+    height          : 1.08rem;
+    /* width        : 100%; */
+    /* box-sizing   : border-box; */
+    border-bottom   : 1px solid #ddd;
+}
+
+.search .song .box .l {
+    padding: .12rem 0;
+    float  : left;
+}
+
+.search .song .box .l .y {
+    font-size    : .34rem;
+    height       : .48rem;
+    line-height  : .48rem;
+    width        : 6.4rem;
+    overflow     : hidden;
+    text-overflow: ellipsis;
+    white-space  : nobox;
+}
+
+.search .song .box .l .y em {
+    color      : #aaa;
+    margin-left: .1rem
+}
+
+.search .song .box .l i {
+    display        : inline-block;
+    width          : .24rem;
+    height         : .16rem;
+    background     : url('../images/bg.png') no-repeat;
+    background-size: 3.32rem 1.94rem;
+    margin-right   : .08rem;
+}
+
+.search .song .box .l span {
+    font-size: .22rem;
+    color    : #888;
+}
+
+.search .song .box .r {
+    float      : right;
+    height     : 1.08rem;
+    padding    : 0 .2rem;
+    display    : flex;
+    align-items: center;
+}
+
+.search .song .box .r span {
+    display            : inline-block;
+    background         : url('../images/bg.png') no-repeat;
+    width              : .44rem;
+    height             : .44rem;
+    background-size    : 3.32rem 1.94rem;
+    background-position: -.48rem 0;
+}

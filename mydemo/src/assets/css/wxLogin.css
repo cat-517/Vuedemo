@@ -1,0 +1,51 @@
+#wx {
+    height: 100vh;
+    background-color: #f2f2f2;
+}
+
+#wx .t {
+    height     : .86rem;
+    line-height: .86rem;
+    color      : #fff;
+    background-color: #ff6040;
+}
+
+#wx .t i {
+    float      : left;
+    font-size  : .32rem;
+    margin-left: .24rem;
+}
+
+#wx .t h1 {
+    float      : left;
+    font-size  : .32rem;
+    margin-left: 2.6rem;
+}
+
+#wx .title{
+    padding: 3.6rem 0 .48rem 1.9rem;
+    font-size: .48rem;
+    color: #666666;
+}
+
+#wx img{
+    margin: 0 0 .64rem 1.94rem;
+    width: 3.64rem;
+    height: .96rem;
+}
+
+#wx .btn{
+    margin: 0 0 .4rem .4rem;
+    height: .98rem;
+    width: 6.7rem;
+    background-color: #ff6040;
+    font-size: .32rem;
+    color: #fff;
+    font-weight: bold;
+}
+
+#wx .code{
+    margin-left: 2.6rem;
+    font-size: .24rem;
+    color: #808080;
+}

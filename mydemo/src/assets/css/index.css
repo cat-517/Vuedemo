@@ -1,0 +1,313 @@
+/*
+ * header
+ */
+.header {
+    height    : 2.46rem;
+    background: linear-gradient(#ff6040, #ff8a7f);
+    overflow  : hidden;
+}
+
+.header .t {
+    height     : .86rem;
+    line-height: .86rem;
+    color      : #fff;
+}
+
+.header .t i {
+    float      : left;
+    font-size  : .32rem;
+    margin-left: .24rem;
+}
+
+.header .t h1 {
+    float      : left;
+    font-size  : .32rem;
+    margin-left: 2.5rem;
+}
+
+
+/*
+ * header top
+ */
+.header .top {
+    height: .96rem;
+}
+
+.header .top i.iconfont {
+    color         : #fff;
+    float         : left;
+    font-size     : .38rem;
+    margin        : .3rem 0 0 .26rem;
+    vertical-align: middle;
+}
+
+.header .top img {
+    float : left;
+    width : 1.82rem;
+    height: .48rem;
+    margin: .28rem 0 0 .25em;
+}
+
+.header .top input {
+    float        : left;
+    margin       : .2rem 0 0 .4rem;
+    height       : .64rem;
+    width        : 3.4rem;
+    font-size    : .26rem;
+    outline      : none;
+    border       : 1px solid #ccc;
+    border-radius: .04rem;
+    padding-left : .24rem;
+    box-sizing   : border-box;
+    border       : 1px solid #ccc;
+}
+
+.header .top b {
+    float    : left;
+    font-size: .38rem;
+    color    : #fff;
+    margin   : .32rem 0 0 .36rem;
+}
+
+/*
+ * header down
+ */
+.header .down {
+    height     : .64rem;
+    line-height: .64rem;
+    color      : #fff;
+}
+
+.header .down ul {
+    display: flex;
+    width  : 6.2rem;
+    float  : left;
+}
+
+.header .down li {
+    padding   : 0 .2rem;
+    flex      : 1;
+    float     : left;
+    box-sizing: border-box;
+    font-size : .27rem;
+}
+
+.header .down .active {
+    font-size    : .31rem;
+    border-bottom: .04rem solid #fff;
+}
+
+.header .down li i {
+    display: block;
+    height : .6rem;
+}
+
+.header .down span {
+    float       : left;
+    width       : 1.3rem;
+    height      : .64rem;
+    font-size   : .27rem;
+    padding-left: .12rem;
+    box-sizing  : border-box;
+    box-shadow  : 0 4px 5px #666;
+}
+
+.header .down span i.iconfont {
+    font-size     : .36rem;
+    vertical-align: middle;
+    margin-right  : .04rem;
+}
+
+/*
+ * banner
+ */
+.banner {
+    height          : 5.86rem;
+    background-color: rgb(231, 230, 230);
+    box-sizing      : border-box;
+}
+
+.banner .b_top {
+    height    : 4rem;
+    padding   : .24rem .3rem 0;
+}
+
+.banner .b_nav {
+    height: 1.86rem;
+}
+
+.banner .b_nav ul {
+    display        : flex;
+    justify-content: space-between;
+    padding        : .36rem .24rem 0;
+}
+
+.banner .b_nav ul li {
+    width: 1rem;
+}
+
+.banner .b_nav div {
+    display       : flex;
+    flex-direction: column;
+    text-align    : center;
+}
+
+.banner .b_nav div img {
+    width     : .64rem;
+    align-self: center;
+    height    : .64rem;
+}
+
+.banner .b_nav div p {
+    font-size : .2rem;
+    margin-top: .1rem;
+}
+
+/*
+ * con
+ */
+.con {
+    height          : 3.9rem;
+    background-color: #f2f2f2;
+    padding         : .2rem;
+    box-sizing      : border-box;
+}
+
+.con .l {
+    float       : left;
+    height      : 3.5rem;
+    width       : 3.5rem;
+    margin-right: .1rem;
+    background  : url('../images/index/big.png') no-repeat;
+}
+
+.con .l .top {
+    height      : .34rem;
+    line-height : .34rem;
+    margin-top  : .16rem;
+    padding-left: .2rem;
+}
+
+.con .l .top .t1 {
+    float      : left;
+    font-size  : .28rem;
+    color      : #8baa4b;
+    font-weight: bold;
+}
+
+.con .l .top .t2 {
+    float    : left;
+    font-size: .2rem;
+    color    : #666;
+    margin   : 0 .08rem 0 .76rem;
+}
+
+.con .l .top img {
+    float     : left;
+    margin-top: .06rem;
+}
+
+.con .l .m {
+    margin-top  : .16rem;
+    height      : .2rem;
+    font-size   : .12rem;
+    color       : #bcd38c;
+    padding-left: .2rem;
+}
+
+/*
+ * r
+ */
+.con .r {
+    float : left;
+    width : 3.5rem;
+    height: 3.5rem;
+}
+
+.con .r .top {
+    height       : 1.7rem;
+    margin-bottom: .1rem;
+    background   : url('../images/index/small.png') no-repeat;
+    padding-left : .2rem;
+}
+
+.con .r .top .r_t1 {
+    padding-top: .2rem;
+    font-size  : .32rem;
+    color      : #ff6040;
+}
+
+.con .r .top .r_t2 {
+    margin   : .16rem 0 .04rem 0;
+    font-size: .2rem;
+    color    : #ffa897;
+}
+
+.con .r .top div {
+    height          : .4rem;
+    line-height     : .4rem;
+    width           : 1.4rem;
+    background-color: #ff6848;
+    border-radius   : 0 .2rem .2rem 0;
+}
+
+.con .r .top div span {
+    float       : left;
+    font-size   : .24rem;
+    color       : #fff;
+    padding-left: .1rem;
+}
+
+.con .r .top div img {
+    float : left;
+    margin: .12rem 0 0 .08rem;
+}
+
+/*
+ * down
+ */
+.con .r .down {
+    height      : 1.7rem;
+    background  : url('../images/index/02.png') no-repeat;
+    padding-left: .2rem;
+}
+
+.con .r .down .r_t3 {
+    padding-top: .2rem;
+    font-size  : .32rem;
+    color      : #af40ff;
+}
+
+.con .r .down .r_t4 {
+    margin   : .16rem 0 .04rem 0;
+    font-size: .2rem;
+    color    : #d08fff;
+}
+
+.con .r .down div {
+    height          : .4rem;
+    line-height     : .4rem;
+    width           : 1.4rem;
+    background-color: #e479ff;
+    border-radius   : 0 .2rem .2rem 0;
+}
+
+.con .r .down div span {
+    float       : left;
+    font-size   : .24rem;
+    color       : #fff;
+    padding-left: .1rem;
+}
+
+.con .r .down div img {
+    float : left;
+    margin: .12rem 0 0 .08rem;
+}
+
+/*
+ * list
+ */
+.list {
+    padding         : 0 .2rem 1.4rem;
+    background-color: #f2f2f2;
+}

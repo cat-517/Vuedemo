@@ -1,0 +1,81 @@
+#detail {
+    height          : 100vh;
+    width           : 100vw;
+    background-color: #ddd;
+}
+
+#detail .main .name {
+    height          : .9rem;
+    width           : 100%;
+    padding         : .12rem .2rem;
+    box-sizing      : border-box;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+}
+
+#detail .main .price {
+    height          : .9rem;
+    width           : 100%;
+    line-height     : .9rem;
+    background-color: #fff;
+    margin-bottom   : .2rem;
+}
+
+#detail .main .price .y {
+    color    : #e43a3d;
+    font-size: 18px;
+}
+
+#detail .main .price .e {
+    text-decoration: line-through;
+    color          : #ccc;
+    transform      : scale(.8);
+}
+
+#detail .main .num {
+    height          : 1rem;
+    line-height     : 1rem;
+    width           : 100%;
+    background-color: #fff;
+    padding         : 0 .2rem;
+    box-sizing      : border-box;
+    border-bottom: 1px solid #ccc;
+}
+
+#detail .main .num i {
+    float: left;
+}
+
+#detail .main .num .van-stepper {
+    float: right;
+}
+
+#detail .main .attr {
+    height          : 1rem;
+    width           : 100%;
+    padding         :  0 .2rem;
+    box-sizing      : border-box;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    margin-bottom: .2rem;
+}
+
+#detail .main .attr .attrs{
+    margin-right: .3rem;
+}
+
+#detail .main .footer p{
+    width: 100%;
+    height: 1rem;
+    line-height: 1rem;
+    padding-left: .2rem;
+    box-sizing: border-box;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+}
+
+#detail .main .footer div{
+    padding: .1rem .1rem;
+    box-sizing: border-box;
+}

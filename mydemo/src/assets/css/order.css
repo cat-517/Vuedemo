@@ -1,0 +1,325 @@
+/*
+ * header
+ */
+#o .header {
+    position  : fixed;
+    top       : 0;
+    left      : 0;
+    height    : 2.68rem;
+    width     : 100%;
+    background: linear-gradient(#ff6040, #ff887e);
+}
+
+#o .header .top {
+    height     : .88rem;
+    line-height: .88rem;
+    color      : #fff;
+}
+
+#o .header .top i {
+    float      : left;
+    font-size  : .32rem;
+    margin-left: .24rem;
+}
+
+#o .header .top h1 {
+    float      : left;
+    font-size  : .32rem;
+    margin-left: 2.5rem;
+}
+
+/*
+ * down
+ */
+#o .header .down {
+    height          : 2.08rem;
+    width           : 7.1rem;
+    background-color: #fff;
+    border-radius   : .08rem;
+    margin          : .2rem auto 0;
+}
+
+#o .header .down h2 {
+    margin     : .4rem 0 .2rem .4rem;
+    font-size  : .36rem;
+    color      : #343434;
+    font-weight: bold;
+}
+
+#o .header .down i {
+    margin-left: .2rem;
+}
+
+#o .header .down p {
+    margin     : 0 .4rem;
+    line-height: .4rem;
+}
+
+/*
+ * main
+ */
+#o .main {
+    padding-top     : 3.36rem;
+    background-color: #f2f1f1;
+}
+
+#o .main .con {
+    background-color: #fff;
+}
+
+/*
+ * nav
+ */
+#o .main .con .nav {
+    height     : 1.12rem;
+    line-height: 1.12rem;
+    width      : 100%;
+}
+
+#o .main .con .nav img {
+    float        : left;
+    width        : .4rem;
+    height       : .4rem;
+    border-radius: 50%;
+    margin       : .38rem 0 0 .26rem;
+}
+
+#o .main .con .nav h3 {
+    float      : left;
+    font-size  : .32rem;
+    color      : #000;
+    margin-left: .2rem;
+    font-weight: bold;
+}
+
+#o .main .con .nav em {
+    float    : right;
+    font-size: .24rem;
+}
+
+#o .main .con .nav b {
+    float : right;
+    margin: 0 .04rem;
+}
+
+#o .main .con .nav span {
+    float       : right;
+    margin-right: .2rem;
+    color       : #ff8871;
+    font-size   : .24rem;
+}
+
+/*
+ * list
+ */
+#o .main .con .list {
+    height       : 2.18rem;
+    width        : 100%;
+    padding      : 0 .2rem;
+    box-sizing   : border-box;
+    margin-bottom: .4rem;
+}
+
+#o .main .con .list img {
+    float       : left;
+    width       : 2.16rem;
+    height      : 2.18rem;
+    margin-right: .3rem;
+}
+
+#o .main .con .list .r {
+    width: 4.64rem;
+    float: left;
+}
+
+#o .main .con .list .r .t {
+    margin-top : .1rem;
+    font-size  : .3rem;
+    color      : #000;
+    line-height: .4rem;
+    height     : .78rem;
+}
+
+#o .main .con .list .u {
+    margin-top   : .4rem;
+    margin-bottom: .24rem;
+}
+
+#o .main .con .list .r .u i {
+    font-size : .18rem;
+    float     : left;
+    margin-top: .08rem;
+    color     : #ff7356;
+}
+
+#o .main .con .list .r .u em {
+    color    : #ff7356;
+    font-size: .38rem;
+    float    : left;
+}
+
+#o .main .con .list .r .u b {
+    float: right;
+}
+
+#o .main .con .list .r .d {
+    margin-top: .24rem;
+}
+
+#o .main .con .list .d {
+    zoom: 0.8
+}
+
+#o .main .con .list .d span,
+#o .main .con .list .d i {
+    background-color: #ff8066;
+    padding         : .02rem;
+    border-radius   : .02rem;
+    color           : #fff;
+    margin-right    : .1rem;
+}
+
+/*
+ * info
+ */
+#o .main .con .info {
+    height          : 2.12rem;
+    padding         : 0 .2rem;
+
+}
+
+#o .main .con .info .y {
+    margin-top   : .2rem;
+    color        : #000;
+    font-size    : .24rem;
+    margin-bottom: .4rem;
+}
+
+#o .main .con .info .y span {
+    float: left;
+}
+
+#o .main .con .info i {
+    float: right;
+}
+
+#o .main .con .info .e {
+    font-size    : .24rem;
+    margin-bottom: .4rem;
+}
+
+#o .main .con .info .e span {
+    color: #000;
+}
+
+#o .main .con .info .e i {
+    color: #aeaeae;
+}
+
+#o .main .con .info .s {
+    font-size: .24rem;
+}
+
+#o .main .con .info .e span {
+    color: #000;
+}
+
+#o .main .con .info .s i {
+    color: #aeaeae;
+}
+
+/*
+ * text
+ */
+#o .main2 {
+    width           : 100%;
+    height          : 2.6rem;
+    box-sizing      : border-box;
+    /* margin-top      : .2rem; */
+    padding         : 0 .2rem 0;
+}
+
+#o .main2 .y {
+    margin-top: .4rem;
+    font-size : .24rem;
+    color     : #000;
+}
+
+#o .main2 .y span {
+    float        : left;
+    margin-bottom: .4rem;
+}
+
+#o .main2 .y i {
+    float: right;
+}
+
+#o .main2 .e {
+    font-size: .24rem;
+}
+
+#o .main2 .e span {
+    float: left;
+}
+
+#o .main2 .e i {
+    float: right;
+    color: #ff8066;
+}
+
+
+/*
+ * footer
+ */
+#o .footer {
+    border-top: 1px solid #999;
+    background-color: #fff;
+    height          : .98rem;
+    position        : fixed;
+    width           : 100%;
+    bottom          : 0;
+}
+
+#o .footer .l{
+    float: left;
+    padding-left: .2rem;
+    margin-right: .32rem;
+}
+
+#o .footer .l h3{
+    margin: .18rem 0 .1rem 0;
+    color: #000;
+    font-weight: bold;
+}
+
+#o .footer .l span{
+    font-size: .18rem;
+    color: #d0d0d0;
+}
+
+#o .footer .m{
+    float: left;
+}
+
+#o .footer .m h3{
+    margin: .12rem 0 .1rem .1rem;
+    font-size: .34rem;
+    color: #ff6040;
+    font-weight: bold;
+}
+
+#o .footer .m span{
+    font-size: .18rem;
+    color: #d0d0d0;
+}
+
+#o .footer .r{
+    float: right;
+    height: .98rem;
+    line-height: .98rem;
+    background-color: #ff6040;
+    color: #fff;
+    width: 2.2rem;
+    font-size: .32rem;
+    text-align: center;
+}

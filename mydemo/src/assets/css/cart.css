@@ -1,0 +1,18 @@
+#ca .t {
+    height          : .86rem;
+    line-height     : .86rem;
+    color           : #fff;
+    background-color: #ff6040;
+}
+
+#ca .t i {
+    float      : left;
+    font-size  : .32rem;
+    margin-left: .24rem;
+}
+
+#ca .t h1 {
+    float      : left;
+    font-size  : .32rem;
+    margin-left: 2.8rem;
+}

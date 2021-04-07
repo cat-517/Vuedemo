@@ -1,0 +1,218 @@
+#m .header {
+    width     : 100%;
+    height    : 5.1rem;
+    background: linear-gradient(#ff6040, #ff8a7f);
+}
+
+
+#m .header .t {
+    height     : .86rem;
+    line-height: .86rem;
+    color      : #fff;
+}
+
+#m .t i {
+    float      : left;
+    font-size  : .32rem;
+    margin-left: .24rem;
+}
+
+#m .header .t h1 {
+    float      : left;
+    font-size  : .32rem;
+    margin-left: 2.8rem;
+}
+
+/*
+ * header top
+ */
+#m .header .top {
+    height    : 1.28rem;
+    margin-top: .2rem;
+}
+
+#m .header .top img {
+    width        : 1.28rem;
+    height       : 1.28rem;
+    border-radius: 50%;
+    padding-left : .2rem;
+    float        : left;
+}
+
+#m .header .info {
+    float      : left;
+    height     : .32rem;
+    margin-left: .2rem;
+}
+
+#m .header .info p {
+    margin   : .32rem 0 .2rem;
+    font-size: .36rem;
+    color    : #fffcfc;
+}
+
+#m .header .info span {
+    zoom         : .8;
+    border       : 2px solid #ff9f8e;
+    padding      : .02rem;
+    border-radius: .04rem;
+    color        : #fffcfc;
+}
+
+#m .btn button {
+    padding      : .14rem;
+    border-radius: .04rem;
+    margin-top   : .2rem;
+    margin-left  : .3rem;
+}
+
+#m .header .day {
+    width           : 1.6rem;
+    height          : .4rem;
+    line-height     : .4rem;
+    background      : url('../images/mine/red_envelopes.png') no-repeat .14rem;
+    background-color: #ffd5cc;
+    float           : right;
+    border-radius   : .2rem 0 0 .2rem;
+    margin-top      : -.2rem;
+}
+
+#m .header .day span {
+    margin-left: .48rem;
+    font-size  : .2rem;
+    color      : #ff9984;
+}
+
+/*
+ * mid
+ */
+#m .header .mid {
+    height : 1.2rem;
+    padding: 0 .36rem;
+}
+
+#m .header .mid ul {
+    height         : 100%;
+    display        : flex;
+    justify-content: space-between;
+}
+
+#m .header .mid .num {
+    margin-top   : .3rem;
+    margin-bottom: .1rem;
+    font-size    : .36rem;
+    font-weight  : bold;
+    color        : #fffefe;
+}
+
+#m .header .mid .num i {
+    font-size: .16rem;
+}
+
+#m .header .mid ul li {
+    text-align: center;
+    flex      : 1;
+    font-size : .12rem;
+    color     : #fffefe;
+}
+
+/*
+ * order
+ */
+#m .header .order {
+    height          : 2.06rem;
+    width           : 7.1rem;
+    background-color: #fff;
+    border-radius   : .1rem;
+    padding         : .2rem .2rem 0;
+    box-sizing      : border-box;
+    float           : left;
+    margin-left     : .2rem;
+}
+
+#m .header .up {
+    height       : .34rem;
+    line-height  : .34rem;
+    margin-bottom: .3rem;
+}
+
+#m .header .order .up h3 {
+    font-weight: bold;
+    font-size  : 17px;
+    float      : left;
+}
+
+#m .header .up span {
+    float    : right;
+    font-size: .12rem;
+    color    : #ff7c62;
+}
+
+#m .header .up span i {
+    font-size     : .32rem;
+    vertical-align: top;
+}
+
+#m .order ul {
+    display: flex;
+}
+
+#m .order ul li {
+    display   : inline-block;
+    flex      : 1;
+    text-align: center;
+}
+
+#m .order ul img {
+    width        : .64rem;
+    margin-bottom: .1rem;
+}
+
+#m .order ul p {
+    font-size: .12rem;
+}
+
+/*
+ * footer
+ */
+#m .footer {
+    height          : 8rem;
+    background-color: #f2f2f2;
+}
+
+#m .footer ul {
+    margin-top: .26rem;
+    height    : 6rem;
+    width     : 100%;
+}
+
+#m .footer ul li {
+    width           : 100%;
+    height          : 1rem;
+    line-height     : 1rem;
+    border-bottom   : 1px solid #ccc;
+    background-color: #fff;
+}
+
+#m .footer li img {
+    float : left;
+    width : .32rme;
+    height: .32rem;
+    margin: .34rem .12rem 0 .2rem;
+}
+
+#m .footer li span {
+    float    : left;
+    font-size: .24rem;
+    color    : #000;
+}
+
+#m .footer li b {
+    float    : right;
+    font-size: .24rem;
+}
+
+#m .footer li em {
+    float : right;
+    margin: 0 .2rem 0 .1rem;
+}
